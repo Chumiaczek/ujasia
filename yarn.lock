@@ -6402,12 +6402,17 @@ nth-check@^1.0.2:
   dependencies:
     boolbase "~1.0.0"
 
-nth-check@^2.0.1:
+nth-check@^2.0.1, nth-check@^2.1.1:
   version "2.1.1"
   resolved "https://registry.yarnpkg.com/nth-check/-/nth-check-2.1.1.tgz#c9eab428effce36cd6b92c924bdb000ef1f1ed1d"
   integrity sha512-lqjrjmaOoAnWfMmBPL+XNnynZh2+swxiX3WUE0s4yEHI6m+AwrK2UZOimIRl3X/4QctVqS8AiZjFqyOGrMXb/w==
   dependencies:
     boolbase "^1.0.0"
+
+nth@^1.1.0:
+  version "1.1.0"
+  resolved "https://registry.yarnpkg.com/nth/-/nth-1.1.0.tgz#ed2a48e7c0f72f3f70e1047407829726317267c5"
+  integrity sha512-EEczU0qXGFXD+LrFat47UlUbdrdkOEsxeiR4tTc9jhnPzdZEfs7DCAmJsiFjARfvlYWnfA4Ub4uJ3Uyj1i2R9g==
 
 nwsapi@^2.2.0:
   version "2.2.1"
