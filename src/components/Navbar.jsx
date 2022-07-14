@@ -66,24 +66,24 @@ const MenuItem = styled.div`
 `;
 
 const Navbar = ({ isOpen, toggle }) => {
-    return (
-        <Container>
-            <Wrapper>
-                <Left>
-                    <Logo>Quady<LogoColor>Olecko</LogoColor></Logo>
-                </Left>
-                <Right>
-                    <MenuItem>Strona Główna</MenuItem>
-                    <MenuItem>Oferta</MenuItem>
-                    <MenuItem>O Nas</MenuItem>
-                    <MenuItem>Kontakt</MenuItem>
-                </Right>
-                <Mobile>
-                    <FaBars fontSize="24px" cursor="pointer" z-index="999" onClick={toggle} />
-                </Mobile>
-            </Wrapper>
-        </Container>
-    );
+  return (
+    <Container>
+      <Wrapper>
+        <Left>
+          <Logo>Quady<LogoColor> Olecko</LogoColor></Logo>
+        </Left>
+        <Right>
+          <MenuItem>Strona Główna</MenuItem>
+          <MenuItem>Oferta</MenuItem>
+          <MenuItem>O Nas</MenuItem>
+          <MenuItem>Kontakt</MenuItem>
+        </Right>
+        <Mobile>
+          <FaBars fontSize="24px" cursor="pointer" z-index="999" onClick={toggle} />
+        </Mobile>
+      </Wrapper>
+    </Container>
+  );
 };
 
 export default Navbar;

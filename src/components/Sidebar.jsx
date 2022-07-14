@@ -70,7 +70,7 @@ const Sidebar = ({ isOpen, toggle }) => {
                 <CloseIcon onClick={toggle} />
             </Icon>
             <LogoWrapper>
-                <Logo>Quady<LogoColor>Olecko</LogoColor></Logo>
+                <Logo>Quady<LogoColor> Olecko</LogoColor></Logo>
             </LogoWrapper>
             <MenuItems>
                 <MenuItem onClick={toggle}>Strona Główna</MenuItem>
